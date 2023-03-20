@@ -1,0 +1,33 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Commands\" />
+    <None Remove="Events\" />
+    <None Remove="Queries\" />
+    <None Remove="Events\Handlers\" />
+    <None Remove="Commands\Handlers\" />
+    <None Remove="Queries\Handlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Commands\" />
+    <Folder Include="Events\" />
+    <Folder Include="Queries\" />
+    <Folder Include="Events\Handlers\" />
+    <Folder Include="Commands\Handlers\" />
+    <Folder Include="Queries\Handlers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModelandoDominiosRicos.CrossCutting\ModelandoDominiosRicos.CrossCutting.csproj" />
+    <ProjectReference Include="..\ModelandoDominiosRicos.Domain\ModelandoDominiosRicos.Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="MediatR" Version="11.1.0" />
+    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
+  </ItemGroup>
+</Project>
