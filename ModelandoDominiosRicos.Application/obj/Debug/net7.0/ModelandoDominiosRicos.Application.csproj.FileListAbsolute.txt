@@ -1,0 +1,17 @@
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/bin/Debug/net7.0/ModelandoDominiosRicos.Application.deps.json
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/bin/Debug/net7.0/ModelandoDominiosRicos.Application.dll
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/bin/Debug/net7.0/ModelandoDominiosRicos.Application.pdb
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/bin/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.dll
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/bin/Debug/net7.0/ModelandoDominiosRicos.Domain.dll
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/bin/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.pdb
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/bin/Debug/net7.0/ModelandoDominiosRicos.Domain.pdb
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.csproj.AssemblyReference.cache
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.AssemblyInfoInputs.cache
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.AssemblyInfo.cs
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.csproj.CoreCompileInputs.cache
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.csproj.CopyComplete
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.dll
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/refint/ModelandoDominiosRicos.Application.dll
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.pdb
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/Debug/net7.0/ref/ModelandoDominiosRicos.Application.dll
