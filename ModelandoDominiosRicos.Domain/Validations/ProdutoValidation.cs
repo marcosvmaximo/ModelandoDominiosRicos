@@ -17,6 +17,11 @@ public sealed class ProdutoValidation : AbstractValidator<Produto>
             .NotNull()
             .WithMessage("Campo Active não deve ser nulo.");
 
+        RuleFor(x => x.Active)
+           .NotNull()
+           .Equal(true)
+           .WithMessage("O produto deve ser Ativado para ser utilizado");
+
         RuleFor(x => x.Titulo)
             .NotNull()
             .NotEmpty()

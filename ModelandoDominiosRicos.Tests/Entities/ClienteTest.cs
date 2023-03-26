@@ -5,6 +5,16 @@ namespace ModelandoDominiosRicos.Tests.Entities;
 
 public class ClienteTest
 {
+    private readonly List<Cliente> Repository = new List<Cliente>()
+    {
+        new Cliente("Douglas", "douglas@mail.com"),
+        new Cliente("Douglas2", "douglas2@mail.com"),
+        new Cliente("Douglas3", "douglas3@mail.com"),
+        new Cliente("Douglas4", "douglas4@mail.com"),
+        new Cliente("Douglas5", "douglas5@mail.com"),
+        new Cliente("Douglas6", "douglas6@mail.com")
+    };
+
     [Fact]
     public void Deve_criar_cliente_valido()
     {
@@ -79,5 +89,13 @@ public class ClienteTest
             "pneuoultramicroscopicossilicovulcanoconiótico");
         Assert.False(cliente.IsValid);
     }
+
+    [Fact]
+    public void Dado_6_Clientes_Total_DeveRetornarUmaListaCom6Clientes()
+    {
+        var result = Repository.ToList();
+        Assert.Equal(6, result.Count);
+    }
+
 }
 

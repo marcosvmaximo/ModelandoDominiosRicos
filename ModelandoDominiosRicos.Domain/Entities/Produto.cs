@@ -12,11 +12,11 @@ public class Produto : Entity
     deixamos seus comportamentos e caracteristicas, unidas dentro desse modelo, que juntos foram esse objeto,
     porém o usuário de fora não conhece esses detalhes, sendo assim detalhes encapsulados.
     */
-    public Produto(string titulo, decimal preco, bool active)
+    public Produto(string titulo, decimal preco)
     {
         Titulo = titulo;
         Preco = preco;
-        Active = active;
+        Active = true;
     }
 
     public string Titulo { get; private set; }
@@ -24,6 +24,7 @@ public class Produto : Entity
     public bool Active { get; private set; }
 
     public void Desativar() => Active = false;
+    public void Ativar() => Active = true;
 
     public void AlterarPreco(decimal preco) => Preco = preco;
 

@@ -51,6 +51,30 @@ namespace ModelandoDominiosRicos.Infra.Migrations
 
                     b.ToTable("Clientes");
                 });
+
+            modelBuilder.Entity("ModelandoDominiosRicos.Domain.Entities.Produto", b =>
+                {
+                    b.Property<Guid>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("char(36)");
+
+                    b.Property<bool>("Active")
+                        .HasColumnType("tinyint(1)");
+
+                    b.Property<decimal>("Preco")
+                        .HasColumnType("decimal(65,30)");
+
+                    b.Property<DateTime>("TimeStamp")
+                        .HasColumnType("datetime(6)");
+
+                    b.Property<string>("Titulo")
+                        .IsRequired()
+                        .HasColumnType("longtext");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("Produtos");
+                });
 #pragma warning restore 612, 618
         }
     }

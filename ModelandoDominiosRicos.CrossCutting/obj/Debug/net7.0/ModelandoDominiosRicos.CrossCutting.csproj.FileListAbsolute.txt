@@ -10,3 +10,15 @@
 /Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/refint/ModelandoDominiosRicos.CrossCutting.dll
 /Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.pdb
 /Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ref/ModelandoDominiosRicos.CrossCutting.dll
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/bin/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.deps.json
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/bin/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.dll
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/bin/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.pdb
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.csproj.AssemblyReference.cache
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.AssemblyInfoInputs.cache
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.AssemblyInfo.cs
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.csproj.CoreCompileInputs.cache
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.dll
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/refint/ModelandoDominiosRicos.CrossCutting.dll
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.pdb
+/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ref/ModelandoDominiosRicos.CrossCutting.dll
