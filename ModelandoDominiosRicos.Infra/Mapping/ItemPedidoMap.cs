@@ -10,10 +10,13 @@ public class ItemPedidoMap : IEntityTypeConfiguration<ItemPedido>
     {
         builder.HasKey(x => x.Id);
 
-        builder.HasOne(x => x.Produto);
+        builder.HasOne(x => x.Produto)
+               .WithOne();
 
         builder.HasOne(x => x.Cliente)
             .WithMany(x => x.CarrinhoItensPedido)
             .HasForeignKey(x => x.IdCliente);
+
+        builder.Ignore(x => x.Notifications);
     }
 }

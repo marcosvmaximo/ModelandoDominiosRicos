@@ -57,13 +57,24 @@ public class AdicionarItemPedidoHandler : IRequestHandler<AdicionarItemPedidoCom
             result = new BaseResult()
             {
                 HttpCode = 404,
-                Sucess = false,
+                Sucess = true,
                 Message = "Produto ou Cliente inserido não foi encontrado",
                 Data = null
             };
             return result;
         }
 
+        if(!produto.Active)
+        {
+            result = new BaseResult()
+            {
+                HttpCode = 400,
+                Sucess = true,
+                Message = "Produto informado não está mais ativo",
+                Data = produto
+            };
+            return result;
+        }
         // criar o item pedido com as entidades buscadas
         ItemPedido itemPedido = new ItemPedido(produto, request.QuantidadeProduto, cliente);
 
@@ -72,7 +83,7 @@ public class AdicionarItemPedidoHandler : IRequestHandler<AdicionarItemPedidoCom
             result = new BaseResult()
             {
                 HttpCode = 400,
-                Sucess = false,
+                Sucess = true,
                 Message = "ItemPedido não atende os padrões de validação",
                 Data = itemPedido
             };

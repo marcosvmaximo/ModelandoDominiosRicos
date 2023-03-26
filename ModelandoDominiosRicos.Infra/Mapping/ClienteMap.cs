@@ -15,6 +15,7 @@ public class ClienteMap : IEntityTypeConfiguration<Cliente>
     {
         builder.HasKey(x => x.Id);
 
+        //ambuigua
         builder.HasMany(x => x.CarrinhoItensPedido)
                .WithOne(x => x.Cliente)
                .HasForeignKey(x => x.IdCliente);

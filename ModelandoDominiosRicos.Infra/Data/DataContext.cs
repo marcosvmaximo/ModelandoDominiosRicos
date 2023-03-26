@@ -3,6 +3,7 @@ using Flunt.Notifications;
 using Microsoft.EntityFrameworkCore;
 using ModelandoDominiosRicos.Domain.Entities;
 using ModelandoDominiosRicos.Domain.Entities.Common;
+using ModelandoDominiosRicos.Infra.Mapping;
 
 namespace ModelandoDominiosRicos.Infra.Data;
 
@@ -21,9 +22,12 @@ public class DataContext : DbContext
     {
         base.OnModelCreating(modelBuilder);
         modelBuilder.Entity<Notification>().HasNoKey();
+        modelBuilder.ApplyConfiguration(new ClienteMap());
+        modelBuilder.ApplyConfiguration(new ItemPedidoMap());
+        modelBuilder.ApplyConfiguration(new ProdutoMap());
         //modelBuilder.Entity<Entity>().Ignore(x => x.Notifications);
-        modelBuilder.Entity<Produto>().Ignore(x => x.Notifications);
-        modelBuilder.Entity<Cliente>().Ignore(x => x.Notifications);
+        //modelBuilder.Entity<Produto>().Ignore(x => x.Notifications);
+        //modelBuilder.Entity<Cliente>().Ignore(x => x.Notifications);
     }
 }
 

@@ -23,6 +23,9 @@ public class PedidoController : ControllerBase
     [HttpPost]
     public async Task<IActionResult> CriarItemPedidoParaCliente([FromBody]AdicionarItemPedidoCommand request)
     {
+        // adiciono um pedido com quantidade e produto
+        // adiciono a onde?
+        // Cliente? Pedido?
         var response = await _mediator.Send(request);
 
         if (response.Sucess)
