@@ -11,13 +11,6 @@ public class Cliente : Entity
     {
         Nome = nome;
         Email = email;
-
-        //AddNotifications(new Contract<Cliente>()
-        //    .Requires()
-        //    .IsNotNull(nome, "Nome", "Campo nome não deve ser nulo")
-        //    .IsNotNull(email, "Email", "Campo email não deve ser nulo")
-        //    .IsEmail(email, "Email", "Campo deve ser um email")
-        //    );
     }
 
     /*
