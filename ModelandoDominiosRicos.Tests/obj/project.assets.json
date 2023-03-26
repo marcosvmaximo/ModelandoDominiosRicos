@@ -6331,11 +6331,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj",
+      "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj",
       "projectName": "ModelandoDominiosRicos.Tests",
-      "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj",
+      "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj",
       "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
-      "outputPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/obj/",
+      "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
@@ -6350,8 +6350,8 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
-              "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj"
+            "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
+              "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj"
             }
           }
         }

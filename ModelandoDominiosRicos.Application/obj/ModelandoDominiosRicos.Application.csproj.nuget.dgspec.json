@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj": {}
+    "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj": {}
   },
   "projects": {
-    "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj": {
+    "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj",
+        "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj",
         "projectName": "ModelandoDominiosRicos.Application",
-        "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj",
+        "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj",
         "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
-        "outputPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/",
+        "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
@@ -26,11 +26,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj": {
-                "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj"
+              "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj": {
+                "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj"
               },
-              "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
-                "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj"
+              "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
+                "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj"
               }
             }
           }
@@ -74,14 +74,14 @@
         }
       }
     },
-    "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj": {
+    "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj",
+        "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj",
         "projectName": "ModelandoDominiosRicos.CrossCutting",
-        "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj",
+        "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj",
         "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
-        "outputPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/",
+        "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
@@ -133,14 +133,14 @@
         }
       }
     },
-    "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
+    "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj",
+        "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj",
         "projectName": "ModelandoDominiosRicos.Domain",
-        "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj",
+        "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj",
         "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
-        "outputPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/obj/",
+        "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
@@ -155,8 +155,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj": {
-                "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj"
+              "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj": {
+                "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj"
               }
             }
           }

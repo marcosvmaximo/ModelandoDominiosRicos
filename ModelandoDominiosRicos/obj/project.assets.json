@@ -1740,11 +1740,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj",
+      "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj",
       "projectName": "ModelandoDominiosRicos",
-      "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj",
+      "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj",
       "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
-      "outputPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos/obj/",
+      "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
@@ -1759,14 +1759,14 @@
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj": {
-              "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj"
+            "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj": {
+              "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj"
             },
-            "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
-              "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj"
+            "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
+              "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj"
             },
-            "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Infra/ModelandoDominiosRicos.Infra.csproj": {
-              "projectPath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Infra/ModelandoDominiosRicos.Infra.csproj"
+            "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Infra/ModelandoDominiosRicos.Infra.csproj": {
+              "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Infra/ModelandoDominiosRicos.Infra.csproj"
             }
           }
         }

@@ -25,7 +25,7 @@ public class Desconto : Entity
         return DateTime.Compare(DateTime.Now, DataExpiracao) < 0;
     }
 
-    protected virtual decimal ObterValorDeconto()
+    public virtual decimal ObterValorDeconto()
     {
         if (DescontoValido())
         {

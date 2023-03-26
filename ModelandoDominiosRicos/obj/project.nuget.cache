@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qk/uk3+GzeblQHowt0PRBAMnMgSKyPicwVIoB97D4d3Ucx82f6r8M2kzhunhfPXfevRti3EY6ImxjZHJ2Zj2Cg==",
+  "dgSpecHash": "wZHhlX49dMpeDo8ufg1MfH3lKTntt67enXOiz3SA13jDJB6+1vfKrNhljKGTiCQnN2Lyq55A+iG7ssfNZiCd7A==",
   "success": true,
-  "projectFilePath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj",
+  "projectFilePath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj",
   "expectedPackageFiles": [
     "/Users/marcosmaximo/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
     "/Users/marcosmaximo/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",

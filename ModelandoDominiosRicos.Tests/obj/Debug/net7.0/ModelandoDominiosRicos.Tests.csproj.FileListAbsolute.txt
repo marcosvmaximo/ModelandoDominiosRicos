@@ -214,3 +214,5 @@
 /Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/obj/Debug/net7.0/ModelandoDominiosRicos.Tests.pdb
 /Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/obj/Debug/net7.0/ModelandoDominiosRicos.Tests.genruntimeconfig.cache
 /Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/obj/Debug/net7.0/ref/ModelandoDominiosRicos.Tests.dll
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/bin/Debug/net7.0/MediatR.dll
+/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/bin/Debug/net7.0/MediatR.Contracts.dll

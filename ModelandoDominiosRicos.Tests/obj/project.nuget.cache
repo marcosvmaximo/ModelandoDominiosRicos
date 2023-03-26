@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "OyoNBojdpz24xRA7k3/QES/Qvve38cHGBXKHbcaU1pzclf2p4Q4ju5SMbgthRh5tMYliJzyeQWz+X15crkQU5Q==",
+  "dgSpecHash": "A/XCKn7561QbhtM0e1ft+qE6xmSJBx+mqX03T8FqAdasEgPLIpNUePvWVgaxKKWcmg30WPjngfAMhiIB0nigzw==",
   "success": true,
-  "projectFilePath": "/Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj",
+  "projectFilePath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj",
   "expectedPackageFiles": [
     "/Users/marcosmaximo/.nuget/packages/coverlet.collector/3.1.2/coverlet.collector.3.1.2.nupkg.sha512",
     "/Users/marcosmaximo/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
