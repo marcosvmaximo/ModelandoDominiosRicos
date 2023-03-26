@@ -1,11 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "QxrdO5y2BCdL38hYUgaDoOWzkJ7PMmTyUyrTURitbg1rfi7tX6OgKhV74/KeCvs0TxinzdMHwx+ZNYRPoEKo1Q==",
+  "dgSpecHash": "5cbWAQwqXGidAlnh+0NOOylgy9hMAKAORZZ8O1yBJ8NzsK7uloE36fAB0fu+yenEhI5vh6ke3PjNyLh+Y3ghpw==",
   "success": true,
-  "projectFilePath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj",
+  "projectFilePath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.CrossCutting\\ModelandoDominiosRicos.CrossCutting.csproj",
   "expectedPackageFiles": [
-    "/Users/marcosmaximo/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
-    "/Users/marcosmaximo/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512"
+    "C:\\Users\\marcos.maximo\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\marcos.maximo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
   ],
   "logs": []
 }

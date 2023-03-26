@@ -6,11 +6,12 @@ using ModelandoDominiosRicos.Domain.Interfaces.Repositories;
 
 namespace ModelandoDominiosRicos.Application.ProdutoContext.Queries.Handlers;
 
-public class ObterProdutoPorIdHandler : IRequestHandler<ObterProdutoPorIdQuery, BaseResult>
+public class ObterProdutosHandler : IRequestHandler<ObterProdutoPorIdQuery, BaseResult>,
+    IRequestHandler<ObterTodosProdutosQuery, BaseResult>
 {
     private readonly IProdutoRepository _repository;
 
-    public ObterProdutoPorIdHandler(IProdutoRepository repository)
+    public ObterProdutosHandler(IProdutoRepository repository)
     {
         _repository = repository;
     }
@@ -59,4 +60,41 @@ public class ObterProdutoPorIdHandler : IRequestHandler<ObterProdutoPorIdQuery, 
 
         return result;
     }
+
+    public async Task<BaseResult> Handle(ObterTodosProdutosQuery request, CancellationToken cancellationToken)
+    {
+        BaseResult result;
+
+        try
+        {
+            var todosProdutos = await _repository.GetAll();
+
+            if (todosProdutos == null)
+                throw new Exception("Ocorreu um erro ao buscar a lista de Produtos");
+
+            if (todosProdutos.Count() <= 0)
+            {
+                result = new BaseResult()
+                {
+                    HttpCode = 200,
+                    Message = "Requisição enviada com sucesso, porém não existem produtos cadastrados.",
+                    Sucess = true,
+                    Data = todosProdutos
+                };
+            }
+
+            result = new BaseResult().Ok(todosProdutos);
+        }
+        catch(Exception ex)
+        {
+            result = new BaseResult()
+            {
+                HttpCode = 500,
+                Message = "Ocorreu um erro ao enviar a requisição.",
+                Sucess = false,
+                Data = null
+            };
+        }
+
+        return result;
 }

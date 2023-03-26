@@ -69,7 +69,7 @@ public class AlterarStatusProdutoHandler : IRequestHandler<AlterarStatusCommand,
                 HttpCode = 500,
                 Message = "Falha ao inserir cliente no servidor, tente novamente mais tarde.",
                 Sucess = false,
-                Data = ex.Data.Values
+                Data = ex.Message
             };
         }
 

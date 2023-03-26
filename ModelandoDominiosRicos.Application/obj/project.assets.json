@@ -70,33 +70,17 @@
           }
         }
       },
-      "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
-        "type": "package",
-        "dependencies": {
-          "MediatR": "[11.0.0, 12.0.0)",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
-        },
-        "compile": {
-          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        },
-        "runtime": {
-          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
-        }
-      },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
         "type": "package",
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
-        },
-        "build": {
-          "buildTransitive/net6.0/_._": {}
         }
       },
       "ModelandoDominiosRicos.CrossCutting/1.0.0": {
@@ -214,46 +198,17 @@
         "mediatr.contracts.nuspec"
       ]
     },
-    "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
-      "sha512": "RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/2.1.0": {
+      "sha512": "8/CtASu80UIoyG+r8FstrmZW5GLtXxzoYpjj3jV0FKZCL5CiFgSH3pAmqut/dC68mu7N1bU6v0UtKKL3gCUQGQ==",
       "type": "package",
-      "path": "mediatr.extensions.microsoft.dependencyinjection/11.1.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/2.1.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "gradient_128x128.png",
-        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
-        "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
-        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
-      ]
-    },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
-      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
-      "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "Icon.png",
-        "LICENSE.TXT",
-        "THIRD-PARTY-NOTICES.TXT",
-        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
-        "buildTransitive/net462/_._",
-        "buildTransitive/net6.0/_._",
-        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
-        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
-        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
-        "useSharedDesignerContext.txt"
+        "microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec"
       ]
     },
     "ModelandoDominiosRicos.CrossCutting/1.0.0": {
@@ -270,41 +225,47 @@
   "projectFileDependencyGroups": {
     "net7.0": [
       "MediatR >= 11.1.0",
-      "MediatR.Extensions.Microsoft.DependencyInjection >= 11.1.0",
       "ModelandoDominiosRicos.CrossCutting >= 1.0.0",
       "ModelandoDominiosRicos.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
-    "/Users/marcosmaximo/.nuget/packages/": {}
+    "C:\\Users\\marcos.maximo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj",
+      "projectUniqueName": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Application\\ModelandoDominiosRicos.Application.csproj",
       "projectName": "ModelandoDominiosRicos.Application",
-      "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj",
-      "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
-      "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/obj/",
+      "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Application\\ModelandoDominiosRicos.Application.csproj",
+      "packagesPath": "C:\\Users\\marcos.maximo\\.nuget\\packages\\",
+      "outputPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Application\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\marcos.maximo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "https://api.nuget.org/v3/index.json": {}
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {},
+        "https://proget.senff.com.br/nuget/Legacy/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj": {
-              "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj"
+            "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.CrossCutting\\ModelandoDominiosRicos.CrossCutting.csproj": {
+              "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.CrossCutting\\ModelandoDominiosRicos.CrossCutting.csproj"
             },
-            "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
-              "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj"
+            "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj": {
+              "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj"
             }
           }
         }
@@ -320,10 +281,6 @@
         "targetAlias": "net7.0",
         "dependencies": {
           "MediatR": {
-            "target": "Package",
-            "version": "[11.1.0, )"
-          },
-          "MediatR.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
             "version": "[11.1.0, )"
           }
@@ -344,7 +301,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
       }
     }
   }

@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "Uc6UVtfmKtLXrPnUhmS5JiJdhaNi4EwRS67ckknpEcpsXE3Bogtctj9dfGYU0SkWq0xWcnXF2YOqT4Gs6K3gOw==",
+  "dgSpecHash": "siwcsNOGOmDJbBFa7NUjI9aT/bhSpGBEXuI0pbRmxYcy7+GUwSGB0AyERMSOB8FigbaD8GeLL86U71WPSGMreA==",
   "success": true,
-  "projectFilePath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj",
+  "projectFilePath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj",
   "expectedPackageFiles": [
-    "/Users/marcosmaximo/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
-    "/Users/marcosmaximo/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
-    "/Users/marcosmaximo/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512",
-    "/Users/marcosmaximo/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
-    "/Users/marcosmaximo/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
-    "/Users/marcosmaximo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/2.1.0/microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "C:\\Users\\marcos.maximo\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
+    "C:\\Users\\marcos.maximo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "C:\\Users\\marcos.maximo\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
+    "C:\\Users\\marcos.maximo\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\marcos.maximo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
+    "C:\\Users\\marcos.maximo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
   ],
   "logs": []
 }

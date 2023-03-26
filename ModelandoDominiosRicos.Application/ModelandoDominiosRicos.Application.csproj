@@ -24,10 +24,8 @@
     <Folder Include="ClienteContext\Commands\" />
     <Folder Include="ClienteContext\Events\" />
     <Folder Include="ClienteContext\Queries\" />
-    <Folder Include="ProdutoContext\" />
     <Folder Include="ProdutoContext\Commands\" />
     <Folder Include="ProdutoContext\Commands\Handlers\" />
-    <Folder Include="ProdutoContext\Queries\" />
     <Folder Include="DescontoContext\" />
     <Folder Include="DescontoContext\Commands\" />
     <Folder Include="DescontoContext\Queries\" />
@@ -38,6 +36,5 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="MediatR" Version="11.1.0" />
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="11.1.0" />
   </ItemGroup>
 </Project>
