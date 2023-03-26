@@ -22,3 +22,15 @@
 /Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/refint/ModelandoDominiosRicos.CrossCutting.dll
 /Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ModelandoDominiosRicos.CrossCutting.pdb
 /Users/marcosmaximo/Desktop/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/Debug/net7.0/ref/ModelandoDominiosRicos.CrossCutting.dll
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\bin\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.deps.json
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\bin\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.dll
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\bin\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.pdb
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\obj\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.csproj.AssemblyReference.cache
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\obj\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\obj\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.AssemblyInfoInputs.cache
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\obj\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.AssemblyInfo.cs
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\obj\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.csproj.CoreCompileInputs.cache
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\obj\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.dll
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\obj\Debug\net7.0\refint\ModelandoDominiosRicos.CrossCutting.dll
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\obj\Debug\net7.0\ModelandoDominiosRicos.CrossCutting.pdb
+C:\Projects\ModelandoDominiosRicos\ModelandoDominiosRicos.CrossCutting\obj\Debug\net7.0\ref\ModelandoDominiosRicos.CrossCutting.dll

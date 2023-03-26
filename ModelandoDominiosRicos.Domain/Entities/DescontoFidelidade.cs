@@ -12,7 +12,7 @@ public sealed class DescontoFidelidade : Desconto
         QuantidadePedidos = quantidadePedidos;
     }
 
-    protected override decimal ObterValorDeconto()
+    public override decimal ObterValorDeconto()
     {
         if (DescontoValido())
         {

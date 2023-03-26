@@ -1,21 +1,16 @@
 ﻿using System.Reflection;
 using FluentValidation;
 using MediatR;
-using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.DependencyInjection;
 using Microsoft.OpenApi.Models;
 using ModelandoDominiosRicos.API.Controllers;
 using ModelandoDominiosRicos.Application.ClienteContext.Commands;
-using ModelandoDominiosRicos.Application.Commands;
 using ModelandoDominiosRicos.CrossCutting.Interfaces;
-using ModelandoDominiosRicos.Domain.Entities;
 using ModelandoDominiosRicos.Domain.Interfaces.Repositories;
 using ModelandoDominiosRicos.Domain.Validations;
 using ModelandoDominiosRicos.Infra.Data;
 using ModelandoDominiosRicos.Infra.Externals;
 using ModelandoDominiosRicos.Infra.Repositories;
-using Pomelo.EntityFrameworkCore.MySql.Infrastructure;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -24,14 +19,7 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 
-builder.Services.AddSwaggerGen(opt =>
-{
-    opt.SwaggerDoc("v1", new OpenApiInfo { Title = "TodoAPI", Version = "v1" });
-
-    var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
-    var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
-    opt.IncludeXmlComments(xmlPath);
-});
+builder.Services.AddSwaggerGen();
 
 var connectionString = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<DataContext>(opt => opt.UseMySql(connectionString, ServerVersion.AutoDetect(connectionString)));

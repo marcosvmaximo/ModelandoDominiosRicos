@@ -13,7 +13,6 @@
     <None Remove="Externals\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Repositories\" />
     <Folder Include="Repositories\Common\" />
     <Folder Include="Data\" />
     <Folder Include="Externals\" />

@@ -26,9 +26,6 @@
     <Folder Include="ClienteContext\Queries\" />
     <Folder Include="ProdutoContext\Commands\" />
     <Folder Include="ProdutoContext\Commands\Handlers\" />
-    <Folder Include="DescontoContext\" />
-    <Folder Include="DescontoContext\Commands\" />
-    <Folder Include="DescontoContext\Queries\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ModelandoDominiosRicos.CrossCutting\ModelandoDominiosRicos.CrossCutting.csproj" />

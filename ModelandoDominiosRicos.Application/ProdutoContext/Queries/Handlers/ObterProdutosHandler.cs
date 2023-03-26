@@ -18,7 +18,7 @@ public class ObterProdutosHandler : IRequestHandler<ObterProdutoPorIdQuery, Base
 
     public async Task<BaseResult> Handle(ObterProdutoPorIdQuery request, CancellationToken cancellationToken)
     {
-        if(request == null || Guid.Empty.Equals(request.Id))
+        if (request == null || Guid.Empty.Equals(request.Id))
         {
             return new BaseResult()
             {
@@ -28,7 +28,7 @@ public class ObterProdutosHandler : IRequestHandler<ObterProdutoPorIdQuery, Base
                 Data = request.Id
             };
         }
-        
+
         BaseResult result;
         var cliente = _repository.GetById(request.Id);
 
@@ -85,16 +85,17 @@ public class ObterProdutosHandler : IRequestHandler<ObterProdutoPorIdQuery, Base
 
             result = new BaseResult().Ok(todosProdutos);
         }
-        catch(Exception ex)
+        catch (Exception ex)
         {
             result = new BaseResult()
             {
                 HttpCode = 500,
                 Message = "Ocorreu um erro ao enviar a requisição.",
                 Sucess = false,
-                Data = null
+                Data = ex.Message
             };
         }
 
         return result;
+    }
 }
