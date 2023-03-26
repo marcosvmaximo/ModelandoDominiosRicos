@@ -24,7 +24,7 @@ public class ItemPedido : Entity
  
     public decimal ObterTotal()
     {
-        if (!Produto.IsValid)
+        if (!Produto.Validate())
             AddNotification(new Notification(this.ToString(), "Não é possível obter total de um Produto inválido"));
 
         return Produto.Preco * Quantidade;

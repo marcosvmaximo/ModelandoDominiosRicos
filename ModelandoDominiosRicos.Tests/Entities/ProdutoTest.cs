@@ -8,7 +8,7 @@ public class ProdutoTest
     [Fact]
     public void DeveCriarProdutoValido()
     {
-        var produto = new Produto("Leite", (decimal)10.99, true);
+        var produto = new Produto("Leite", (decimal)10.99);
         produto.Validate();
         Assert.True(produto.IsValid);
     }
@@ -16,7 +16,7 @@ public class ProdutoTest
     [Fact]
     public void DeveFalharAoCriarProdutoComPreco0()
     {
-        var produto = new Produto("Leite", 0, true);
+        var produto = new Produto("Leite", 0);
         produto.Validate();
         Assert.False(produto.IsValid);
     }
@@ -24,7 +24,7 @@ public class ProdutoTest
     [Fact]
     public void DeveFalharAoCriarProdutoSemTitulo()
     {
-        var produto = new Produto("", 10, true);
+        var produto = new Produto("", 10);
         produto.Validate();
         Assert.False(produto.IsValid);
     }
@@ -32,7 +32,7 @@ public class ProdutoTest
     [Fact]
     public void DeveFalharAoCriarProdutoComValoresNulo()
     {
-        var produto = new Produto(null, 0m, false);
+        var produto = new Produto(null, 0m);
         produto.Validate();
         Assert.False(produto.IsValid);
     }
@@ -40,7 +40,7 @@ public class ProdutoTest
     [Fact]
     public void DeveFalharAoCriarProdutoComMaisDeDuasCasasDecimais()
     {
-        var produto = new Produto("Produto", 10.1000m, true);
+        var produto = new Produto("Produto", 10.1000m);
         produto.Validate();
         Assert.False(produto.IsValid);
     }
@@ -48,7 +48,7 @@ public class ProdutoTest
     [Fact]
     public void DeveDesativarProduto()
     {
-        var produto = new Produto("Produto", 10, true);
+        var produto = new Produto("Produto", 10);
         produto.Desativar();
         Assert.False(produto.Active);
     }
@@ -56,7 +56,7 @@ public class ProdutoTest
     [Fact]
     public void DeveAlterarPrecoProduto()
     {
-        var produto = new Produto("Produto", 10, false);
+        var produto = new Produto("Produto", 10);
         produto.AlterarPreco(25.12m);
         Assert.Equal(25.12m, produto.Preco);
     }

@@ -5,9 +5,7 @@ namespace ModelandoDominiosRicos.Tests.Entities;
 
 public class ItemPedidoTest
 {
-    private readonly Produto _validProduto = new Produto("Produto", 10.10m, true);
-
-    private readonly Produto _invalidProduto = new Produto("", 1.121m, false);
+    private readonly Produto _validProduto = new Produto("Produto", 10.10m);
 
     [Fact]
     public void DeveCriarItemPedidoValido()
@@ -36,8 +34,10 @@ public class ItemPedidoTest
     [Fact]
     public void DeveFalharAoObterTotalComProdutoInvalido()
     {
-        var item = new ItemPedido(_invalidProduto, 12);
-        _invalidProduto.Validate();
+        var produto = new Produto("Produto Invalido", 10.10m);
+        produto.Desativar();
+        var item = new ItemPedido(produto, 12);
+        produto.Validate();
         item.ObterTotal();
 
         Assert.False(item.IsValid);
@@ -46,7 +46,7 @@ public class ItemPedidoTest
     [Fact]
     public void DeveObterTotalCorreto()
     {
-        var produto = new Produto("Produto", 10m, true);
+        var produto = new Produto("Produto", 10m);
         var item = new ItemPedido(produto, 10);
         var total = item.ObterTotal();
 

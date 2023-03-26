@@ -50,7 +50,7 @@ public class PedidoTest
     {
         var descontoExpirado = new Desconto(10, new DateTime(2020, 1, 1));
         var pedido = new Pedido(_clienteValido, 10, descontoExpirado);
-        pedido.AdicionarItem(new Produto("Produto", 40, true), 1);
+        pedido.AdicionarItem(new Produto("Produto", 40), 1);
         Assert.Equal(50, pedido.Total);
     }
 
@@ -59,7 +59,7 @@ public class PedidoTest
     {
         var desconto = new Desconto(50, new DateTime(2024, 1, 1));
         var pedido = new Pedido(_clienteValido, 50, desconto);
-        pedido.AdicionarItem(new Produto("Produto", 50, true), 1);
+        pedido.AdicionarItem(new Produto("Produto", 50), 1);
         Assert.Equal(50, pedido.Total);
     }
 
@@ -77,7 +77,7 @@ public class PedidoTest
     {
         var desconto = new Desconto(10, new DateTime(2024, 1, 1));
         var pedido = new Pedido(_clienteValido, 10, desconto);
-        pedido.AdicionarItem(new Produto("produto", 50, true), 1);
+        pedido.AdicionarItem(new Produto("produto", 50), 1);
 
         Assert.Equal(50, pedido.Total);
     }
@@ -87,7 +87,7 @@ public class PedidoTest
     {
         var descontoSemValor = new Desconto(0, DateTime.Now.AddDays(10));
         var pedido = new Pedido(_clienteValido, 10, descontoSemValor);
-        pedido.AdicionarItem(new Produto("Produto", 50, true), 1);
+        pedido.AdicionarItem(new Produto("Produto", 50), 1);
 
         Assert.Equal(60, pedido.Total);
     }
@@ -113,7 +113,9 @@ public class PedidoTest
     public void DadoUmProdutoInvalido_NaoDeveAdicionarAListaItem()
     {
         var pedido = new Pedido(_clienteValido, 0, _descontoValido);
-        pedido.AdicionarItem(new Produto("Produto", 50, false), 1);
+        var produto = new Produto("Produto", 50);
+        produto.Desativar();
+        pedido.AdicionarItem(produto, 1);
         Assert.False(pedido.Items.Count > 0);
     }
 
@@ -121,9 +123,9 @@ public class PedidoTest
     public void Dado3ItensPedidos_PedidoDeveConter3Itens()
     {
         var pedido = new Pedido(_clienteValido, 0, _descontoValido);
-        pedido.AdicionarItem(new Produto("Produto", 50, true), 1);
-        pedido.AdicionarItem(new Produto("Produto1", 50, true), 1);
-        pedido.AdicionarItem(new Produto("Produto2", 50, true), 1);
+        pedido.AdicionarItem(new Produto("Produto", 50), 1);
+        pedido.AdicionarItem(new Produto("Produto1", 50), 1);
+        pedido.AdicionarItem(new Produto("Produto2", 50), 1);
         Assert.True(pedido.Items.Count == 3);
     }
 
@@ -132,9 +134,9 @@ public class PedidoTest
     {
         var descontoSemValor = new Desconto(0, DateTime.Now.AddDays(10));
         var pedido = new Pedido(_clienteValido, 0, descontoSemValor);
-        pedido.AdicionarItem(new Produto("Produto", 50, true), 1);
-        pedido.AdicionarItem(new Produto("Produto1", 50, true), 1);
-        pedido.AdicionarItem(new Produto("Produto2", 50, true), 1);
+        pedido.AdicionarItem(new Produto("Produto", 50), 1);
+        pedido.AdicionarItem(new Produto("Produto1", 50), 1);
+        pedido.AdicionarItem(new Produto("Produto2", 50), 1);
         Assert.Equal(150, pedido.Total);
     }
 
@@ -143,7 +145,7 @@ public class PedidoTest
     {
         var descontoSemValor = new Desconto(0, DateTime.Now.AddDays(10));
         var pedido = new Pedido(_clienteValido, 0, descontoSemValor);
-        pedido.AdicionarItem(new Produto("Produto", 50, true), 10);
+        pedido.AdicionarItem(new Produto("Produto", 50), 10);
         Assert.Equal(500, pedido.Total);
     }
 
@@ -151,7 +153,7 @@ public class PedidoTest
     public void AdicionadoUmItemALista_ListaNaoDeveConter0Item()
     {
         var pedido = new Pedido(_clienteValido, 0, _descontoValido);
-        pedido.AdicionarItem(new Produto("Produto", 10, true), 1);
+        pedido.AdicionarItem(new Produto("Produto", 10), 1);
         Assert.True(pedido.Items.Count > 0);
     }
 }

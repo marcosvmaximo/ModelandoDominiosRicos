@@ -7,20 +7,24 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Remove="Commands\" />
-    <None Remove="Events\" />
-    <None Remove="Queries\" />
-    <None Remove="Events\Handlers\" />
-    <None Remove="Commands\Handlers\" />
-    <None Remove="Queries\Handlers\" />
+    <None Remove="ClienteContext\" />
+    <None Remove="ClienteContext\Commands\" />
+    <None Remove="ClienteContext\Events\" />
+    <None Remove="ClienteContext\Queries\" />
+    <None Remove="ProdutoContext\" />
+    <None Remove="ProdutoContext\Commands\" />
+    <None Remove="ProdutoContext\Commands\Handlers\" />
+    <None Remove="ProdutoContext\Queries\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Commands\" />
-    <Folder Include="Events\" />
-    <Folder Include="Queries\" />
-    <Folder Include="Events\Handlers\" />
-    <Folder Include="Commands\Handlers\" />
-    <Folder Include="Queries\Handlers\" />
+    <Folder Include="ClienteContext\" />
+    <Folder Include="ClienteContext\Commands\" />
+    <Folder Include="ClienteContext\Events\" />
+    <Folder Include="ClienteContext\Queries\" />
+    <Folder Include="ProdutoContext\" />
+    <Folder Include="ProdutoContext\Commands\" />
+    <Folder Include="ProdutoContext\Commands\Handlers\" />
+    <Folder Include="ProdutoContext\Queries\" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\ModelandoDominiosRicos.CrossCutting\ModelandoDominiosRicos.CrossCutting.csproj" />
