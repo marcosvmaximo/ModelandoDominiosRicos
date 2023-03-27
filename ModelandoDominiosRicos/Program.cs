@@ -26,11 +26,15 @@ builder.Services.AddDbContext<DataContext>(opt => opt.UseMySql(connectionString,
 
 builder.Services.AddMediatR(typeof(CadastrarClienteCommand));
 builder.Services.AddMediatR(typeof(ClienteController));
+builder.Services.AddValidatorsFromAssemblyContaining<ClienteValidation>();
 
 builder.Services.AddTransient<ISendMailExternal, SendMailExternal>();
+
 builder.Services.AddTransient<IClienteRepository, ClienteRepository>();
 builder.Services.AddTransient<IProdutoRepository, ProdutoRepository>();
-builder.Services.AddValidatorsFromAssemblyContaining<ClienteValidation>();
+
+builder.Services.AddTransient<IDescontoRepository, DescontoRepository>();
+builder.Services.AddTransient<IItemPedidoRepository, ItemPedidoRepository>();
 
 var app = builder.Build();
 

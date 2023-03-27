@@ -18,6 +18,8 @@ public class ItemPedido : Entity
         IdCliente = cliente.Id;
     }
 
+    protected ItemPedido() { }
+
     public Guid IdProduto { get; private set; }
     public Produto Produto { get; private set; }
     public int Quantidade { get; private set; }

@@ -21,13 +21,11 @@ public class DataContext : DbContext
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
         base.OnModelCreating(modelBuilder);
-        modelBuilder.Entity<Notification>().HasNoKey();
         modelBuilder.ApplyConfiguration(new ClienteMap());
+        modelBuilder.ApplyConfiguration(new DescontoMap());
         modelBuilder.ApplyConfiguration(new ItemPedidoMap());
         modelBuilder.ApplyConfiguration(new ProdutoMap());
-        //modelBuilder.Entity<Entity>().Ignore(x => x.Notifications);
-        //modelBuilder.Entity<Produto>().Ignore(x => x.Notifications);
-        //modelBuilder.Entity<Cliente>().Ignore(x => x.Notifications);
+
     }
 }
 

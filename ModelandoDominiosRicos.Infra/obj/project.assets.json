@@ -83,6 +83,19 @@
           }
         }
       },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+        "type": "package",
+        "dependencies": {
+          "MediatR": "[11.0.0, 12.0.0)",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "compile": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {}
+        }
+      },
       "Microsoft.EntityFrameworkCore/7.0.4": {
         "type": "package",
         "dependencies": {
@@ -167,10 +180,10 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
+      "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
         "type": "package",
         "dependencies": {
-          "Microsoft.EntityFrameworkCore.Design": "7.0.3"
+          "Microsoft.EntityFrameworkCore.Design": "7.0.4"
         },
         "compile": {
           "lib/net6.0/_._": {}
@@ -467,7 +480,8 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v7.0",
         "dependencies": {
-          "MediatR": "11.1.0"
+          "MediatR": "11.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0"
         },
         "compile": {
           "bin/placeholder/ModelandoDominiosRicos.CrossCutting.dll": {}
@@ -596,6 +610,19 @@
         "mediatr.contracts.nuspec"
       ]
     },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+      "sha512": "RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
+      "type": "package",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "gradient_128x128.png",
+        "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll",
+        "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+        "mediatr.extensions.microsoft.dependencyinjection.nuspec"
+      ]
+    },
     "Microsoft.EntityFrameworkCore/7.0.4": {
       "sha512": "eNcsY3rft5ERJJcen80Jyg57EScjWZmvhwmFLYXmEOTdVqHG+wQZiMOXnO1b5RH3u2qTQq+Tpci7KGfLAG5Gtg==",
       "type": "package",
@@ -668,17 +695,17 @@
         "microsoft.entityframeworkcore.relational.nuspec"
       ]
     },
-    "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
-      "sha512": "yHFlYPZS3Jx7JMCQnGKfJzv95rJWVcmcUn/OW5cbCyWgQk81JJpTZ9Q6kkvwquYjFRfvYHBGuXNIYhAJokOBTQ==",
+    "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
+      "sha512": "58hDB+ENGisuSjJBl1RBHL9qzFJTukFSQFl/wCU8/3ApcOH/rPrRG4PWThiJTmfHRmh8H8HExdYbtkv7wa7BLg==",
       "type": "package",
-      "path": "microsoft.entityframeworkcore.tools/7.0.3",
+      "path": "microsoft.entityframeworkcore.tools/7.0.4",
       "hasTools": true,
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "lib/net6.0/_._",
-        "microsoft.entityframeworkcore.tools.7.0.3.nupkg.sha512",
+        "microsoft.entityframeworkcore.tools.7.0.4.nupkg.sha512",
         "microsoft.entityframeworkcore.tools.nuspec",
         "tools/EntityFrameworkCore.PS2.psd1",
         "tools/EntityFrameworkCore.PS2.psm1",
@@ -1210,45 +1237,38 @@
     "net7.0": [
       "Microsoft.EntityFrameworkCore >= 7.0.4",
       "Microsoft.EntityFrameworkCore.Design >= 7.0.4",
-      "Microsoft.EntityFrameworkCore.Tools >= 7.0.3",
+      "Microsoft.EntityFrameworkCore.Tools >= 7.0.4",
       "ModelandoDominiosRicos.Domain >= 1.0.0",
       "Pomelo.EntityFrameworkCore.MySql >= 7.0.0"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\marcos.maximo\\.nuget\\packages\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "/Users/marcosmaximo/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Infra\\ModelandoDominiosRicos.Infra.csproj",
+      "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Infra/ModelandoDominiosRicos.Infra.csproj",
       "projectName": "ModelandoDominiosRicos.Infra",
-      "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Infra\\ModelandoDominiosRicos.Infra.csproj",
-      "packagesPath": "C:\\Users\\marcos.maximo\\.nuget\\packages\\",
-      "outputPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Infra\\obj\\",
+      "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Infra/ModelandoDominiosRicos.Infra.csproj",
+      "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
+      "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Infra/obj/",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-      ],
       "configFilePaths": [
-        "C:\\Users\\marcos.maximo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net7.0"
       ],
       "sources": {
-        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "https://api.nuget.org/v3/index.json": {},
-        "https://proget.senff.com.br/nuget/Legacy/v3/index.json": {}
+        "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net7.0": {
           "targetAlias": "net7.0",
           "projectReferences": {
-            "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj": {
-              "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj"
+            "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
+              "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj"
             }
           }
         }
@@ -1277,7 +1297,7 @@
             "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
             "suppressParent": "All",
             "target": "Package",
-            "version": "[7.0.3, )"
+            "version": "[7.0.4, )"
           },
           "Pomelo.EntityFrameworkCore.MySql": {
             "target": "Package",
@@ -1300,7 +1320,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
       }
     }
   }

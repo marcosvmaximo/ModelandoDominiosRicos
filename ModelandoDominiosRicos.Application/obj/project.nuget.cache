@@ -1,15 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "lPjJmSyP20TahJUx2YbCMkT87+Na6aBPW0gV1QcpdmM1nLX33iqQ4OrOdP2ZQ9vV97BI5MU+d6hCmfkvQB6xoQ==",
+  "dgSpecHash": "+JCvYBnOxxe++pguNsvExQc2u9fYpE5DD86ehDrDBh714+LGFk10dWsQWFkFUdMhxERrB1uvTg4u1e+MeaPUQg==",
   "success": true,
-  "projectFilePath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Application\\ModelandoDominiosRicos.Application.csproj",
+  "projectFilePath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\marcos.maximo\\.nuget\\packages\\fluentvalidation\\11.5.1\\fluentvalidation.11.5.1.nupkg.sha512",
-    "C:\\Users\\marcos.maximo\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.5.1\\fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
-    "C:\\Users\\marcos.maximo\\.nuget\\packages\\flunt\\2.0.5\\flunt.2.0.5.nupkg.sha512",
-    "C:\\Users\\marcos.maximo\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
-    "C:\\Users\\marcos.maximo\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512",
-    "C:\\Users\\marcos.maximo\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\2.1.0\\microsoft.extensions.dependencyinjection.abstractions.2.1.0.nupkg.sha512"
+    "/Users/marcosmaximo/.nuget/packages/fluentvalidation/11.5.1/fluentvalidation.11.5.1.nupkg.sha512",
+    "/Users/marcosmaximo/.nuget/packages/fluentvalidation.dependencyinjectionextensions/11.5.1/fluentvalidation.dependencyinjectionextensions.11.5.1.nupkg.sha512",
+    "/Users/marcosmaximo/.nuget/packages/flunt/2.0.5/flunt.2.0.5.nupkg.sha512",
+    "/Users/marcosmaximo/.nuget/packages/mediatr/11.1.0/mediatr.11.1.0.nupkg.sha512",
+    "/Users/marcosmaximo/.nuget/packages/mediatr.contracts/1.0.1/mediatr.contracts.1.0.1.nupkg.sha512",
+    "/Users/marcosmaximo/.nuget/packages/mediatr.extensions.microsoft.dependencyinjection/11.1.0/mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512",
+    "/Users/marcosmaximo/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/7.0.0/microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512"
   ],
   "logs": []
 }

@@ -12,7 +12,7 @@ public class AlterarStatusCommand : IRequest<BaseResult>, ICommand
 
     public bool FastValidate()
     {
-        throw new NotImplementedException();
+        return true;
     }
 }
 

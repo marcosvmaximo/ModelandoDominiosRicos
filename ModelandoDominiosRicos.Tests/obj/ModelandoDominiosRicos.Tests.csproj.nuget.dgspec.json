@@ -1,32 +1,26 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Tests\\ModelandoDominiosRicos.Tests.csproj": {}
+    "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj": {}
   },
   "projects": {
-    "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.CrossCutting\\ModelandoDominiosRicos.CrossCutting.csproj": {
+    "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.CrossCutting\\ModelandoDominiosRicos.CrossCutting.csproj",
+        "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj",
         "projectName": "ModelandoDominiosRicos.CrossCutting",
-        "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.CrossCutting\\ModelandoDominiosRicos.CrossCutting.csproj",
-        "packagesPath": "C:\\Users\\marcos.maximo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.CrossCutting\\obj\\",
+        "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj",
+        "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
+        "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marcos.maximo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://proget.senff.com.br/nuget/Legacy/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
@@ -47,6 +41,10 @@
             "MediatR": {
               "target": "Package",
               "version": "[11.1.0, )"
+            },
+            "MediatR.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.1.0, )"
             }
           },
           "imports": [
@@ -65,40 +63,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj": {
+    "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj",
+        "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj",
         "projectName": "ModelandoDominiosRicos.Domain",
-        "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj",
-        "packagesPath": "C:\\Users\\marcos.maximo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\obj\\",
+        "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj",
+        "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
+        "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marcos.maximo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://proget.senff.com.br/nuget/Legacy/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.CrossCutting\\ModelandoDominiosRicos.CrossCutting.csproj": {
-                "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.CrossCutting\\ModelandoDominiosRicos.CrossCutting.csproj"
+              "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj": {
+                "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.CrossCutting/ModelandoDominiosRicos.CrossCutting.csproj"
               }
             }
           }
@@ -142,40 +134,34 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Tests\\ModelandoDominiosRicos.Tests.csproj": {
+    "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Tests\\ModelandoDominiosRicos.Tests.csproj",
+        "projectUniqueName": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj",
         "projectName": "ModelandoDominiosRicos.Tests",
-        "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Tests\\ModelandoDominiosRicos.Tests.csproj",
-        "packagesPath": "C:\\Users\\marcos.maximo\\.nuget\\packages\\",
-        "outputPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Tests\\obj\\",
+        "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/ModelandoDominiosRicos.Tests.csproj",
+        "packagesPath": "/Users/marcosmaximo/.nuget/packages/",
+        "outputPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/obj/",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
-        ],
         "configFilePaths": [
-          "C:\\Users\\marcos.maximo\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/marcosmaximo/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "https://api.nuget.org/v3/index.json": {},
-          "https://proget.senff.com.br/nuget/Legacy/v3/index.json": {}
+          "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj": {
-                "projectPath": "C:\\Projects\\ModelandoDominiosRicos\\ModelandoDominiosRicos.Domain\\ModelandoDominiosRicos.Domain.csproj"
+              "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj": {
+                "projectPath": "/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/ModelandoDominiosRicos.Domain.csproj"
               }
             }
           }
@@ -192,23 +178,23 @@
           "dependencies": {
             "Microsoft.NET.Test.Sdk": {
               "target": "Package",
-              "version": "[17.1.0, )"
+              "version": "[17.5.0, )"
             },
             "coverlet.collector": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[3.1.2, )"
+              "version": "[3.2.0, )"
             },
             "xunit": {
               "target": "Package",
-              "version": "[2.4.1, )"
+              "version": "[2.4.2, )"
             },
             "xunit.runner.visualstudio": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.4.3, )"
+              "version": "[2.4.5, )"
             }
           },
           "imports": [
@@ -227,7 +213,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.202\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.202/RuntimeIdentifierGraph.json"
         }
       }
     }

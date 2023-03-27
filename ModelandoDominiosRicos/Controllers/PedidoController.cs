@@ -15,10 +15,10 @@ public class PedidoController : ControllerBase
         _mediator = mediator;
     }
 
-    [HttpGet]
-    public async Task<IActionResult> Index()
-    {
-    }
+    //[HttpGet]
+    //public async Task<IActionResult> Index()
+    //{
+    //}
 
     [HttpPost]
     public async Task<IActionResult> CriarItemPedidoParaCliente([FromBody]AdicionarItemPedidoCommand request)
@@ -38,9 +38,9 @@ public class PedidoController : ControllerBase
         }
     }
 
-    [HttpPost]
-    public async Task<IActionResult> CriarPedido()
-    {
+    //[HttpPost]
+    //public async Task<IActionResult> CriarPedido()
+    //{
 
-    }
+    //}
 }

@@ -18,6 +18,19 @@ public sealed class ItemPedidoValidation : AbstractValidator<ItemPedido>
             .SetValidator(new ProdutoValidation())
             .WithMessage("Campo Produto deve ser preenchido corretamente.");
 
+        RuleFor(x => x.IdCliente)
+            .NotNull()
+            .WithMessage("Campo obrigatório.");
+
+        RuleFor(x => x.IdCliente)
+            .NotNull()
+            .WithMessage("Campo obrigatório.");
+
+        RuleFor(x => x.Cliente)
+            .NotNull()
+            .SetValidator(new ClienteValidation())
+            .WithMessage("Campo Cliente deve ser preenchido corretamente.");
+
         RuleFor(x => x.Quantidade)
             .NotNull()
             .GreaterThan(0)

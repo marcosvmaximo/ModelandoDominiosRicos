@@ -13,6 +13,7 @@ public class Cliente : Entity
         Email = email;
     }
 
+    protected Cliente() { }
     /*
     Aplicaremos o principio de aberto e fechado, definindo que nossos dados internos, estão fechados
     para mudanças, porém aberto para atualizações..

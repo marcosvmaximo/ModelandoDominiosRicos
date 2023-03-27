@@ -13,14 +13,23 @@ public class ClienteMap : IEntityTypeConfiguration<Cliente>
 {
     public void Configure(EntityTypeBuilder<Cliente> builder)
     {
+        builder.ToTable("md_clientes");
+
         builder.HasKey(x => x.Id);
 
-        //ambuigua
-        builder.HasMany(x => x.CarrinhoItensPedido)
-               .WithOne(x => x.Cliente)
-               .HasForeignKey(x => x.IdCliente);
+        builder.Property(x => x.Nome)
+            .HasColumnName("nome")
+            .HasColumnType("varchar");
 
+        builder.Property(x => x.Email)
+            .HasColumnName("email")
+            .HasColumnType("varchar");
+
+        builder.Property(x => x.TimeStamp)
+            .HasColumnName("timestamp")
+            .HasColumnType("TIMESTAMP");
+
+        builder.Ignore(x => x.IsValid);
         builder.Ignore(x => x.Notifications);
-
     }
 }

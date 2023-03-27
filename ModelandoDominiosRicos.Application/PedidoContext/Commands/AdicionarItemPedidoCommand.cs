@@ -12,6 +12,6 @@ public class AdicionarItemPedidoCommand : IRequest<BaseResult>, ICommand
 
     public bool FastValidate()
     {
-        throw new NotImplementedException();
+        return true;
     }
 }

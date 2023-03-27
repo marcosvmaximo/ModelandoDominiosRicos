@@ -15,7 +15,14 @@ public class Desconto : Entity
         DataExpiracao = dataExpiracao;
     }
 
-    public decimal ValorDesconto => ObterValorDeconto();
+    protected Desconto() { }
+
+    public decimal ValorDesconto
+    {
+        get => ObterValorDeconto();
+        set => _valor = value;
+    }
+
     public DateTime DataExpiracao { get; private set; }
 
     // Definimos o comportamento direto na entidade, já que é uma regra exclusivamente dela.
@@ -37,6 +44,7 @@ public class Desconto : Entity
             return 0;
         }
     }
+
     public override bool Validate()
     {
         ValidationResult valid = new DescontoValidation().Validate(this);

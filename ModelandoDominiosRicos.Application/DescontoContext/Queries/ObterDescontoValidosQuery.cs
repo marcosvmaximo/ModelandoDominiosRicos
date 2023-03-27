@@ -8,7 +8,7 @@ using System.Threading.Tasks;
 
 namespace ModelandoDominiosRicos.Application.DescontoContext.Queries;
 
-public class ObterDescontoValidosCommand : IRequest<BaseResult>
+public class ObterDescontoValidosQuery : IRequest<BaseResult>
 {
     public DateTime DataAtual { get; set; }
 }

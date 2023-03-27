@@ -10,7 +10,7 @@
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "7.0.4",
           "Microsoft.EntityFrameworkCore.Design": "7.0.4",
-          "Microsoft.EntityFrameworkCore.Tools": "7.0.3",
+          "Microsoft.EntityFrameworkCore.Tools": "7.0.4",
           "ModelandoDominiosRicos.Domain": "1.0.0",
           "Pomelo.EntityFrameworkCore.MySql": "7.0.0"
         },
@@ -73,6 +73,18 @@
           }
         }
       },
+      "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+        "dependencies": {
+          "MediatR": "11.1.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+        },
+        "runtime": {
+          "lib/netstandard2.1/MediatR.Extensions.Microsoft.DependencyInjection.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.1.0.0"
+          }
+        }
+      },
       "Microsoft.EntityFrameworkCore/7.0.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Abstractions": "7.0.4",
@@ -123,7 +135,7 @@
           }
         }
       },
-      "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
+      "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore.Design": "7.0.4"
         }
@@ -285,7 +297,8 @@
       },
       "ModelandoDominiosRicos.CrossCutting/1.0.0": {
         "dependencies": {
-          "MediatR": "11.1.0"
+          "MediatR": "11.1.0",
+          "MediatR.Extensions.Microsoft.DependencyInjection": "11.1.0"
         },
         "runtime": {
           "ModelandoDominiosRicos.CrossCutting.dll": {}
@@ -352,6 +365,13 @@
       "path": "mediatr.contracts/1.0.1",
       "hashPath": "mediatr.contracts.1.0.1.nupkg.sha512"
     },
+    "MediatR.Extensions.Microsoft.DependencyInjection/11.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-RW3etRuy6Xp63cgqfC0r/ITOtUT0f9ymJl1+1XZdzsYUsfv7WBPC2kXGOP8IYpY/6c4Q6805vbIW/88DopUs3w==",
+      "path": "mediatr.extensions.microsoft.dependencyinjection/11.1.0",
+      "hashPath": "mediatr.extensions.microsoft.dependencyinjection.11.1.0.nupkg.sha512"
+    },
     "Microsoft.EntityFrameworkCore/7.0.4": {
       "type": "package",
       "serviceable": true,
@@ -387,12 +407,12 @@
       "path": "microsoft.entityframeworkcore.relational/7.0.4",
       "hashPath": "microsoft.entityframeworkcore.relational.7.0.4.nupkg.sha512"
     },
-    "Microsoft.EntityFrameworkCore.Tools/7.0.3": {
+    "Microsoft.EntityFrameworkCore.Tools/7.0.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-yHFlYPZS3Jx7JMCQnGKfJzv95rJWVcmcUn/OW5cbCyWgQk81JJpTZ9Q6kkvwquYjFRfvYHBGuXNIYhAJokOBTQ==",
-      "path": "microsoft.entityframeworkcore.tools/7.0.3",
-      "hashPath": "microsoft.entityframeworkcore.tools.7.0.3.nupkg.sha512"
+      "sha512": "sha512-58hDB+ENGisuSjJBl1RBHL9qzFJTukFSQFl/wCU8/3ApcOH/rPrRG4PWThiJTmfHRmh8H8HExdYbtkv7wa7BLg==",
+      "path": "microsoft.entityframeworkcore.tools/7.0.4",
+      "hashPath": "microsoft.entityframeworkcore.tools.7.0.4.nupkg.sha512"
     },
     "Microsoft.Extensions.Caching.Abstractions/7.0.0": {
       "type": "package",

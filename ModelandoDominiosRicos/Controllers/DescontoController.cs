@@ -56,7 +56,7 @@ public class DescontoController : ControllerBase
     [ProducesResponseType(typeof(BaseResult), 400)]
     [ProducesResponseType(typeof(BaseResult), 404)]
     [HttpGet]
-    public async Task<IActionResult> ObterDescontoValidos(ObterDescontoValidosCommand request)
+    public async Task<IActionResult> ObterDescontoValidos(ObterDescontoValidosQuery request)
     {
         var response = await _mediator.Send(request);
 
