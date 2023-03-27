@@ -9,14 +9,22 @@ namespace ModelandoDominiosRicos.Domain.Entities;
 
 public class ItemPedido : Entity
 {
-    public ItemPedido(Produto produto, int quantidade)
+    public ItemPedido(Produto produto, int quantidade, Cliente cliente)
     {
         Produto = produto;
+        IdProduto = produto.Id;
         Quantidade = quantidade;
+        Cliente = cliente;
+        IdCliente = cliente.Id;
     }
 
+    protected ItemPedido() { }
+
+    public Guid IdProduto { get; private set; }
     public Produto Produto { get; private set; }
     public int Quantidade { get; private set; }
+    public Guid IdCliente { get; private set; }
+    public Cliente Cliente { get; private set; }
 
     // Criamos esses métodos que geram valores para encapsular a logica que gera esses valores em um unico método assim facilitando os testes de unidades.
 

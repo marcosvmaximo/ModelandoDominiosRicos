@@ -11,15 +11,9 @@ public class Cliente : Entity
     {
         Nome = nome;
         Email = email;
-
-        //AddNotifications(new Contract<Cliente>()
-        //    .Requires()
-        //    .IsNotNull(nome, "Nome", "Campo nome não deve ser nulo")
-        //    .IsNotNull(email, "Email", "Campo email não deve ser nulo")
-        //    .IsEmail(email, "Email", "Campo deve ser um email")
-        //    );
     }
 
+    protected Cliente() { }
     /*
     Aplicaremos o principio de aberto e fechado, definindo que nossos dados internos, estão fechados
     para mudanças, porém aberto para atualizações..

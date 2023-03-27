@@ -34,7 +34,7 @@ public class Pedido : Entity
     {
         if (produto != null && produto.Active)
         {
-            var itemPedido = new ItemPedido(produto, quantidade);
+            var itemPedido = new ItemPedido(produto, quantidade, Cliente);
             _items.Add(itemPedido);
         }
         else

@@ -1,13 +1,12 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{FE9130E8-EB24-4214-A94C-C9FBD47CCAB5}|Default">
-  <MultiItemStartupConfigurations />
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{9E57A7A4-0E80-4764-9721-6BC2563405BA}|Default">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.5_220-_220Tests.ModelandoDominiosRicos.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ModelandoDominiosRicos.Application/Commands/CadastrarClienteCommand.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj">
     <Files>
-      <File FileName="ModelandoDominiosRicos.Domain/Entities/Common/Entity.cs" />
+      <File FileName="ModelandoDominiosRicos.Domain/Entities/Common/Entity.cs" Line="10" Column="6" />
       <File FileName="ModelandoDominiosRicos.Domain/Entities/Produto.cs" />
       <File FileName="ModelandoDominiosRicos.Domain/Entities/Desconto.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Entities/Pedido.cs" />
+      <File FileName="ModelandoDominiosRicos.Domain/Entities/Pedido.cs" Line="36" Column="10" />
       <File FileName="ModelandoDominiosRicos.Domain/Validations/ClienteValidation.cs" />
       <File FileName="ModelandoDominiosRicos.Domain/Validations/DescontoValidation.cs" />
       <File FileName="ModelandoDominiosRicos.Domain/Validations/ItemPedidoValidation.cs" />
@@ -18,7 +17,7 @@
       <File FileName="ModelandoDominiosRicos.Domain/Enums/EStatusPedido.cs" />
       <File FileName="ModelandoDominiosRicos.Tests/Usings.cs" />
       <File FileName="ModelandoDominiosRicos.Tests/Entities/ClienteTest.cs" />
-      <File FileName="ModelandoDominiosRicos/Program.cs" />
+      <File FileName="ModelandoDominiosRicos/Program.cs" Line="31" Column="29" />
       <File FileName="ModelandoDominiosRicos/Controllers/ClienteController.cs" />
       <File FileName="ModelandoDominiosRicos.Tests/Entities/ProdutoTest.cs" />
       <File FileName="ModelandoDominiosRicos.Tests/Entities/DescontoTest.cs" />
@@ -29,31 +28,65 @@
       <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/IDescontoRepository.cs" />
       <File FileName="ModelandoDominiosRicos.Tests/Entities/PedidoTest.cs" />
       <File FileName="ModelandoDominiosRicos.CrossCutting/Results/BaseResult.cs" />
-      <File FileName="ModelandoDominiosRicos.Application/Commands/CadastrarClienteCommand.cs" Line="1" Column="6" />
       <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/Common/IBaseRepository.cs" />
       <File FileName="ModelandoDominiosRicos/appsettings.json" />
       <File FileName="ModelandoDominiosRicos.Infra/Repositories/ClienteRepository.cs" />
       <File FileName="ModelandoDominiosRicos.Infra/Repositories/Common/BaseRepository.cs" />
       <File FileName="ModelandoDominiosRicos.Infra/Data/DataContext.cs" />
       <File FileName="ModelandoDominiosRicos.Infra/Data/DataContextFactory.cs" />
-      <File FileName="ModelandoDominiosRicos.Application/Events/EnviarEmailEvent.cs" />
-      <File FileName="ModelandoDominiosRicos.Application/Queries/Handlers/ObterClientesQueryHandler.cs" />
-      <File FileName="ModelandoDominiosRicos.Application/Events/Handlers/EnviarEmailEventHandler.cs" />
       <File FileName="ModelandoDominiosRicos.Infra/Externals/SendMailExternal.cs" />
       <File FileName="ModelandoDominiosRicos.CrossCutting/Interfaces/ISendMailExternal.cs" />
       <File FileName="ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj" />
-      <File FileName="ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj" Line="15" Column="38" />
-      <File FileName=".gitignore" Line="331" Column="1" />
+      <File FileName="ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj" Line="16" Column="61" />
+      <File FileName="ModelandoDominiosRicos/Controllers/ProdutoController.cs" />
+      <File FileName="ModelandoDominiosRicos/Controllers/DescontoController.cs" />
+      <File FileName="ModelandoDominiosRicos.Application/DescontoContext/Commands/CriarDescontoCommand.cs" />
+      <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Commands/AlterarStatusCommand.cs" />
+      <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Commands/InserirProdutoCommand.cs" />
+      <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Queries/ObterProdutoPorIdQuery.cs" />
+      <File FileName=".vs/ModelandoDominiosRicos/xs/project-cache/ModelandoDominiosRicos.Application-Debug.json" />
+      <File FileName=".vs/ModelandoDominiosRicos/xs/project-cache/ModelandoDominiosRicos.CrossCutting-Debug.json" />
+      <File FileName="ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.csproj.AssemblyReference.cache" />
+      <File FileName="ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.assets.cache" />
+      <File FileName="ModelandoDominiosRicos.Application/obj/ModelandoDominiosRicos.Application.csproj.nuget.dgspec.json" Line="29" Column="34" />
+      <File FileName="ModelandoDominiosRicos.Application/PedidoContext/Commands/AdicionarItemPedidoCommand.cs" Line="7" Column="46" />
+      <File FileName="ModelandoDominiosRicos.Infra/Repositories/DescontoRepository.cs" Line="13" Column="74" />
+      <File FileName="ModelandoDominiosRicos.Infra/Mapping/ClienteMap.cs" Line="16" Column="35" />
+      <File FileName="ModelandoDominiosRicos.Infra/Mapping/ItemPedidoMap.cs" Line="17" Column="25" />
+      <File FileName="ModelandoDominiosRicos/Controllers/PedidoController.cs" Line="33" Column="19" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
-          <Node name="ModelandoDominiosRicos" expanded="True" selected="True" />
+          <Node name="ModelandoDominiosRicos" expanded="True">
+            <Node name="1 - API" expanded="True">
+              <Node name="ModelandoDominiosRicos.API" expanded="True">
+                <Node name="Controllers" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="2 - Application" expanded="True">
+              <Node name="ModelandoDominiosRicos.Application" expanded="True">
+                <Node name="Dependencies" selected="True" />
+                <Node name="PedidoContext" expanded="True">
+                  <Node name="Commands" expanded="True" />
+                </Node>
+              </Node>
+            </Node>
+            <Node name="4 - Infra" expanded="True">
+              <Node name="ModelandoDominiosRicos.Infra" expanded="True">
+                <Node name="Mapping" expanded="True" />
+                <Node name="Repositories" expanded="True" />
+              </Node>
+            </Node>
+            <Node name="5 - Tests" expanded="True" />
+            <Node name="6 - CrossCutting" expanded="True" />
+          </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.1_220-_220API.ModelandoDominiosRicos.API PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore>
       <Breakpoint file="/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Tests/UnitTest1.cs" relfile="ModelandoDominiosRicos.Tests/UnitTest1.cs" line="6" column="1" />
@@ -64,4 +97,5 @@
       <Breakpoint file="/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/Commands/CadastrarClienteCommand.cs" relfile="ModelandoDominiosRicos.Application/Commands/CadastrarClienteCommand.cs" line="17" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
 </Properties>

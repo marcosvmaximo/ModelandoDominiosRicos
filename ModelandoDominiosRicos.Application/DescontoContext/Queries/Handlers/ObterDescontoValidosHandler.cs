@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace ModelandoDominiosRicos.Application.DescontoContext.Queries.Handlers;
 
-public class ObterDescontoValidosHandler : IRequestHandler<ObterDescontoValidosCommand, BaseResult>
+public class ObterDescontoValidosHandler : IRequestHandler<ObterDescontoValidosQuery, BaseResult>
 {
     private readonly IDescontoRepository _repository;
 
@@ -17,7 +17,7 @@ public class ObterDescontoValidosHandler : IRequestHandler<ObterDescontoValidosC
     {
         _repository = repository;
     }
-    public async Task<BaseResult> Handle(ObterDescontoValidosCommand request, CancellationToken cancellationToken)
+    public async Task<BaseResult> Handle(ObterDescontoValidosQuery request, CancellationToken cancellationToken)
     {
         BaseResult result;
         if (request is null || request?.DataAtual is null)

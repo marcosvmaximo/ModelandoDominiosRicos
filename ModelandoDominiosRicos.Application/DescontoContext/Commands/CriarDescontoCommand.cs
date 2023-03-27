@@ -12,7 +12,7 @@ public class CriarDescontoCommand : IRequest<BaseResult>, ICommand
 
     public bool FastValidate()
     {
-        throw new NotImplementedException();
+        return true;
     }
 }
 
