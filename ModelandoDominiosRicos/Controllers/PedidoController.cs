@@ -38,9 +38,18 @@ public class PedidoController : ControllerBase
         }
     }
 
-    //[HttpPost]
-    //public async Task<IActionResult> CriarPedido()
-    //{
+    [HttpPost]
+    public async Task<IActionResult> CriarPedido(CriarPedidoCommand request)
+    {
+        var response = await _mediator.Send(request);
 
-    //}
+        if (response.Sucess)
+        {
+            return Ok(response);
+        }
+        else
+        {
+            return BadRequest(response);
+        }
+    }
 }

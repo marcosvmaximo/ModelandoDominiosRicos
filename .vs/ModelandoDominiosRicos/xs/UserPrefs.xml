@@ -1,59 +1,73 @@
-﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{9E57A7A4-0E80-4764-9721-6BC2563405BA}|Default">
+﻿<Properties GitUserInfo="UsingMD" StartupConfiguration="{9E57A7A4-0E80-4764-9721-6BC2563405BA}|https">
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.5_220-_220Tests.ModelandoDominiosRicos.Tests PreferredExecutionTarget="MonoDevelop.Default" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj">
+  <MonoDevelop.Ide.Workbench ActiveDocument="ModelandoDominiosRicos.Domain/Entities/Pedido.cs">
     <Files>
-      <File FileName="ModelandoDominiosRicos.Domain/Entities/Common/Entity.cs" Line="10" Column="6" />
-      <File FileName="ModelandoDominiosRicos.Domain/Entities/Produto.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Entities/Desconto.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Entities/Pedido.cs" Line="36" Column="10" />
-      <File FileName="ModelandoDominiosRicos.Domain/Validations/ClienteValidation.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Validations/DescontoValidation.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Validations/ItemPedidoValidation.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Validations/PedidoValidation.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Validations/ProdutoValidation.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Entities/Cliente.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Entities/ItemPedido.cs" />
+      <File FileName="ModelandoDominiosRicos.Domain/Entities/Common/Entity.cs" Line="8" Column="2" />
+      <File FileName="ModelandoDominiosRicos.Domain/Entities/Produto.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Entities/Desconto.cs" Line="25" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Entities/Pedido.cs" Line="21" Column="42" />
+      <File FileName="ModelandoDominiosRicos.Domain/Validations/ClienteValidation.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Validations/DescontoValidation.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Validations/ItemPedidoValidation.cs" Line="28" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Validations/PedidoValidation.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Validations/ProdutoValidation.cs" Line="9" Column="12" />
+      <File FileName="ModelandoDominiosRicos.Domain/Entities/Cliente.cs" Line="17" Column="7" />
+      <File FileName="ModelandoDominiosRicos.Domain/Entities/ItemPedido.cs" Line="43" Column="49" />
       <File FileName="ModelandoDominiosRicos.Domain/Enums/EStatusPedido.cs" />
       <File FileName="ModelandoDominiosRicos.Tests/Usings.cs" />
       <File FileName="ModelandoDominiosRicos.Tests/Entities/ClienteTest.cs" />
-      <File FileName="ModelandoDominiosRicos/Program.cs" Line="31" Column="29" />
-      <File FileName="ModelandoDominiosRicos/Controllers/ClienteController.cs" />
+      <File FileName="ModelandoDominiosRicos/Program.cs" Line="26" Column="1" />
+      <File FileName="ModelandoDominiosRicos/Controllers/ClienteController.cs" Line="32" Column="1" />
       <File FileName="ModelandoDominiosRicos.Tests/Entities/ProdutoTest.cs" />
       <File FileName="ModelandoDominiosRicos.Tests/Entities/DescontoTest.cs" />
-      <File FileName="ModelandoDominiosRicos.Tests/Entities/ItemPedidoTest.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Entities/DescontoFidelidade.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/IClienteRepository.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/IProdutoRepository.cs" />
-      <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/IDescontoRepository.cs" />
+      <File FileName="ModelandoDominiosRicos.Tests/Entities/ItemPedidoTest.cs" Line="31" Column="19" />
+      <File FileName="ModelandoDominiosRicos.Domain/Entities/DescontoFidelidade.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/IClienteRepository.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/IProdutoRepository.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/IDescontoRepository.cs" Line="7" Column="18" />
       <File FileName="ModelandoDominiosRicos.Tests/Entities/PedidoTest.cs" />
-      <File FileName="ModelandoDominiosRicos.CrossCutting/Results/BaseResult.cs" />
+      <File FileName="ModelandoDominiosRicos.CrossCutting/Results/BaseResult.cs" Line="1" Column="1" />
       <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/Common/IBaseRepository.cs" />
-      <File FileName="ModelandoDominiosRicos/appsettings.json" />
-      <File FileName="ModelandoDominiosRicos.Infra/Repositories/ClienteRepository.cs" />
-      <File FileName="ModelandoDominiosRicos.Infra/Repositories/Common/BaseRepository.cs" />
-      <File FileName="ModelandoDominiosRicos.Infra/Data/DataContext.cs" />
-      <File FileName="ModelandoDominiosRicos.Infra/Data/DataContextFactory.cs" />
+      <File FileName="ModelandoDominiosRicos/appsettings.json" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Infra/Repositories/ClienteRepository.cs" Line="12" Column="41" />
+      <File FileName="ModelandoDominiosRicos.Infra/Repositories/Common/BaseRepository.cs" Line="18" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Infra/Data/DataContext.cs" Line="20" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Infra/Data/DataContextFactory.cs" Line="21" Column="1" />
       <File FileName="ModelandoDominiosRicos.Infra/Externals/SendMailExternal.cs" />
-      <File FileName="ModelandoDominiosRicos.CrossCutting/Interfaces/ISendMailExternal.cs" />
+      <File FileName="ModelandoDominiosRicos.CrossCutting/Interfaces/ISendMailExternal.cs" Line="11" Column="1" />
       <File FileName="ModelandoDominiosRicos.Application/ModelandoDominiosRicos.Application.csproj" />
       <File FileName="ModelandoDominiosRicos/ModelandoDominiosRicos.API.csproj" Line="16" Column="61" />
-      <File FileName="ModelandoDominiosRicos/Controllers/ProdutoController.cs" />
-      <File FileName="ModelandoDominiosRicos/Controllers/DescontoController.cs" />
-      <File FileName="ModelandoDominiosRicos.Application/DescontoContext/Commands/CriarDescontoCommand.cs" />
-      <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Commands/AlterarStatusCommand.cs" />
-      <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Commands/InserirProdutoCommand.cs" />
+      <File FileName="ModelandoDominiosRicos/Controllers/ProdutoController.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos/Controllers/DescontoController.cs" Line="59" Column="84" />
+      <File FileName="ModelandoDominiosRicos.Application/DescontoContext/Commands/CriarDescontoCommand.cs" Line="15" Column="21" />
+      <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Commands/AlterarStatusCommand.cs" Line="15" Column="21" />
+      <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Commands/InserirProdutoCommand.cs" Line="15" Column="21" />
       <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Queries/ObterProdutoPorIdQuery.cs" />
       <File FileName=".vs/ModelandoDominiosRicos/xs/project-cache/ModelandoDominiosRicos.Application-Debug.json" />
       <File FileName=".vs/ModelandoDominiosRicos/xs/project-cache/ModelandoDominiosRicos.CrossCutting-Debug.json" />
       <File FileName="ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.csproj.AssemblyReference.cache" />
       <File FileName="ModelandoDominiosRicos.Application/obj/Debug/net7.0/ModelandoDominiosRicos.Application.assets.cache" />
-      <File FileName="ModelandoDominiosRicos.Application/obj/ModelandoDominiosRicos.Application.csproj.nuget.dgspec.json" Line="29" Column="34" />
-      <File FileName="ModelandoDominiosRicos.Application/PedidoContext/Commands/AdicionarItemPedidoCommand.cs" Line="7" Column="46" />
-      <File FileName="ModelandoDominiosRicos.Infra/Repositories/DescontoRepository.cs" Line="13" Column="74" />
-      <File FileName="ModelandoDominiosRicos.Infra/Mapping/ClienteMap.cs" Line="16" Column="35" />
-      <File FileName="ModelandoDominiosRicos.Infra/Mapping/ItemPedidoMap.cs" Line="17" Column="25" />
-      <File FileName="ModelandoDominiosRicos/Controllers/PedidoController.cs" Line="33" Column="19" />
+      <File FileName="ModelandoDominiosRicos.Application/obj/ModelandoDominiosRicos.Application.csproj.nuget.dgspec.json" />
+      <File FileName="ModelandoDominiosRicos.Application/PedidoContext/Commands/AdicionarItemPedidoCommand.cs" Line="7" Column="14" />
+      <File FileName="ModelandoDominiosRicos.Infra/Repositories/DescontoRepository.cs" Line="17" Column="6" />
+      <File FileName="ModelandoDominiosRicos.Infra/Mapping/ClienteMap.cs" Line="27" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Infra/Mapping/ItemPedidoMap.cs" Line="42" Column="46" />
+      <File FileName="ModelandoDominiosRicos/Controllers/PedidoController.cs" Line="25" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Commands/Handlers/InserirProdutoHandler.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Infra/Repositories/ProdutoRepository.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Infra/Repositories/ItemPedidoRepository.cs" Line="12" Column="43" />
+      <File FileName="ModelandoDominiosRicos.Infra/Mapping/ProdutoMap.cs" Line="35" Column="40" />
+      <File FileName="ModelandoDominiosRicos.Application/ProdutoContext/Commands/Handlers/AlterarStatusProdutoHandler.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Application/PedidoContext/Commands/Handlers/AdicionarItemPedidoHandler.cs" Line="10" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Application/ClienteContext/Commands/Handlers/AlterarNomeClienteHandler.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Infra/Mapping/DescontoMap.cs" Line="13" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Domain/Interfaces/Repositories/IItemPedidoRepository.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Application/DescontoContext/Commands/Handlers/CriarDescontoHandler.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.CrossCutting/Interfaces/ICommand.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.CrossCutting/Interfaces/IContract.cs" Line="1" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Application/ClienteContext/Commands/Handlers/CadastrarClienteHandler.cs" Line="23" Column="1" />
+      <File FileName="ModelandoDominiosRicos.Application/DescontoContext/Queries/ObterDescontoValidosCommand.cs" Line="11" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -66,20 +80,40 @@
             </Node>
             <Node name="2 - Application" expanded="True">
               <Node name="ModelandoDominiosRicos.Application" expanded="True">
-                <Node name="Dependencies" selected="True" />
+                <Node name="ClienteContext" expanded="True">
+                  <Node name="Commands" expanded="True">
+                    <Node name="Handlers" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="DescontoContext" expanded="True" />
                 <Node name="PedidoContext" expanded="True">
-                  <Node name="Commands" expanded="True" />
+                  <Node name="Commands" expanded="True">
+                    <Node name="Handlers" expanded="True" />
+                  </Node>
+                </Node>
+                <Node name="ProdutoContext" expanded="True">
+                  <Node name="Commands" expanded="True">
+                    <Node name="Handlers" expanded="True" />
+                  </Node>
+                </Node>
+              </Node>
+            </Node>
+            <Node name="3 - Domain" expanded="True">
+              <Node name="ModelandoDominiosRicos.Domain" expanded="True">
+                <Node name="Entities" expanded="True">
+                  <Node name="Pedido.cs" selected="True" />
                 </Node>
               </Node>
             </Node>
             <Node name="4 - Infra" expanded="True">
               <Node name="ModelandoDominiosRicos.Infra" expanded="True">
+                <Node name="Data" expanded="True" />
                 <Node name="Mapping" expanded="True" />
-                <Node name="Repositories" expanded="True" />
+                <Node name="Repositories" expanded="True">
+                  <Node name="Common" expanded="True" />
+                </Node>
               </Node>
             </Node>
-            <Node name="5 - Tests" expanded="True" />
-            <Node name="6 - CrossCutting" expanded="True" />
           </Node>
         </State>
       </Pad>
@@ -93,8 +127,9 @@
       <Breakpoint file="/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Domain/Validations/Common/BaseValidator.cs" relfile="ModelandoDominiosRicos.Domain/Validations/Common/BaseValidator.cs" line="7" column="1" />
       <Breakpoint file="/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos/Controllers/ClienteController.cs" relfile="ModelandoDominiosRicos/Controllers/ClienteController.cs" line="81" column="1" />
       <Breakpoint file="/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/Queries/Handlers/ObterClientesQueryHandler.cs" relfile="ModelandoDominiosRicos.Application/Queries/Handlers/ObterClientesQueryHandler.cs" line="19" column="1" />
-      <Breakpoint file="/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Infra/Repositories/ClienteRepository.cs" relfile="ModelandoDominiosRicos.Infra/Repositories/ClienteRepository.cs" line="17" column="1" />
       <Breakpoint file="/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/Commands/CadastrarClienteCommand.cs" relfile="ModelandoDominiosRicos.Application/Commands/CadastrarClienteCommand.cs" line="17" column="1" />
+      <Breakpoint file="/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos.Application/ClienteContext/Commands/Handlers/AlterarNomeClienteHandler.cs" relfile="ModelandoDominiosRicos.Application/ClienteContext/Commands/Handlers/AlterarNomeClienteHandler.cs" line="21" column="1" />
+      <Breakpoint file="/Users/marcosmaximo/Projects/ModelandoDominiosRicos/ModelandoDominiosRicos/Controllers/PedidoController.cs" relfile="ModelandoDominiosRicos/Controllers/PedidoController.cs" line="25" column="1" />
     </BreakpointStore>
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />

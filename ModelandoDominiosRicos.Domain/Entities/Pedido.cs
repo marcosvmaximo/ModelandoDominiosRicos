@@ -12,6 +12,9 @@ public class Pedido : Entity
     // Alguns itens pode ser requeridos para operações internas, mas isso cria uma dependencia ruim no nosso código, então extanilzamos, deixamos a responsabilidade de nos dar esses itens externos para fora da entidade, assim evitando a dependencia.
     private List<ItemPedido> _items;
 
+    // sera dado um cliente para um pedido 
+    // depois buscaremos o que esse cliente tem no carrinho buscando no DB
+    // depois criamos o pedido e apagamos o carrinho
     public Pedido(Cliente cliente, decimal taxaEntrega, Desconto desconto)
     {
         Cliente = cliente;
